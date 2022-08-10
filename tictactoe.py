@@ -44,7 +44,7 @@ def es_tres_en_linea(jugador: str, tablero: Tablero) -> bool:
     )
 
 
-def obtener_posicion(jugador: str) -> int:
+def obtener_posicion(jugador: str) -> str:
     posicion = " "
     while posicion not in list(map(str, range(1, 10))):
         posicion = input(f"Marcar {jugador} en: ")
