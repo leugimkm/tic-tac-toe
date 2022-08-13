@@ -1,1 +1,1 @@
-prototools==0.1.23
+prototools==0.1.24
